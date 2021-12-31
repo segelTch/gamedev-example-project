@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e410fa40cb9632f4983803f8bd090016, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b3d60825aa458b45b7285cd938e3d34, type: 3}
   m_Name: PlayerTwoControls
   m_EditorClassIdentifier: 
   up: 119

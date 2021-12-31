@@ -1,5 +1,17 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &2669262941048753852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2149759210606907071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e183208a40d357f47a2e3755e2ce4db1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8198011203806334318
 GameObject:
   m_ObjectHideFlags: 0
@@ -44,12 +56,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8198011203806334318}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e88a19c2e0692a479c2657a11a82c74, type: 3}
+  m_Script: {fileID: 11500000, guid: 681837a01c88710468e42f00b2635e10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerNumber: 1
   manager: {fileID: 0}
-  speed: 16
+  speed: 14
   keySet: {fileID: 11400000, guid: a37c897860b677f438a46d3b910d630b, type: 2}
 --- !u!50 &9209685306919315759
 Rigidbody2D:
@@ -249,8 +261,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2975985418098055963, guid: 59fac90d3f2b6904ba2bc6f699fc2d5b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 59fac90d3f2b6904ba2bc6f699fc2d5b, type: 3}
+--- !u!1 &2149759210606907071 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3458990216449016358, guid: 59fac90d3f2b6904ba2bc6f699fc2d5b, type: 3}
+  m_PrefabInstance: {fileID: 3302748052034915481}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5732429376939280434 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7086442597754684587, guid: 59fac90d3f2b6904ba2bc6f699fc2d5b, type: 3}

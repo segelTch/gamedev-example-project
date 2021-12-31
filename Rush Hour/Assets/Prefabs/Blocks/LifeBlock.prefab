@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8997891348765950456}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12eaf4b54bea5d74489a4cfc7d552e13, type: 3}
+  m_Script: {fileID: 11500000, guid: b1bb489a6105114499546975a90ae719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isOnRaft: 1
+  isOnRaft: 0
   healthTotal: 1
   damageReduction: 0
   lifeBlockDestroyed:
