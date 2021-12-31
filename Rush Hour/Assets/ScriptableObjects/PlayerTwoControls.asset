@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e410fa40cb9632f4983803f8bd090016, type: 3}
+  m_Name: PlayerTwoControls
+  m_EditorClassIdentifier: 
+  up: 119
+  down: 115
+  right: 100
+  left: 97
+  pivot: 102
+  use: 304
